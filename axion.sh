@@ -27,5 +27,5 @@ echo "----------------"
 echo Starting Build
 echo "----------------"
 
-axion sweet gms core
+axion dubai gms core
 ax -br
