@@ -1,4 +1,5 @@
 rm -rf .repo/local_manifests/
+rm -rf prebuilts/clang/host/linux-x86
 
 git clone -b axion https://github.com/akarshvn/local_manifests .repo/local_manifests
 
