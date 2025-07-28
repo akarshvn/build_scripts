@@ -8,7 +8,7 @@ echo "----------------------------------"
 
 repo init -u https://github.com/AxionAOSP/android.git -b lineage-23.0 --git-lfs
 
-repo sync
+/opt/crave/resync.sh
 
 echo "----------------"
 echo Sync Successful
