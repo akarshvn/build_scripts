@@ -1,4 +1,6 @@
 rm -rf .repo/local_manifests/
+rm -rf prebuilts/clang/host/linux-x86
+rm -rf packages/apps/Updater/
 
 git clone -b a16/dt-branch-change https://github.com/akarshvn/local_manifests .repo/local_manifests
 
@@ -8,7 +10,7 @@ echo "----------------------------------"
 
 repo init -u https://github.com/AxionAOSP/android.git -b lineage-22.2 --git-lfs
 
-repo sync
+/opt/crave/resync.sh
 
 echo "----------------"
 echo Sync Successful
