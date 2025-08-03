@@ -8,7 +8,7 @@ echo "----------------------------------"
 echo Local Manifest Cloning Successful
 echo "----------------------------------"
 
-repo init -u https://github.com/AxionAOSP/android.git -b lineage-22.2 --git-lfs
+repo init -u https://github.com/AxionAOSP/android.git -b lineage-23.0 --git-lfs
 
 /opt/crave/resync.sh
 
