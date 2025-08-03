@@ -1,6 +1,6 @@
 rm -rf .repo/local_manifests/
 
-git clone -b axion https://github.com/akarshvn/local_manifests .repo/local_manifests
+git clone -b a16/dt-branch-change https://github.com/akarshvn/local_manifests .repo/local_manifests
 
 echo "----------------------------------"
 echo Local Manifest Cloning Successful
