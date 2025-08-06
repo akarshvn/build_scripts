@@ -19,6 +19,11 @@ echo "----------------"
 rm -rf packages/apps/Updater/
 git clone -b lineage-22.2 https://github.com/akarshvn/android_packages_apps_Updater.git packages/apps/Updater/
 
+mkdir -p out/target/product/dubai/obj/KERNEL_OBJ/usr
+echo "---------------"
+echo "created folder: out/target/product/dubai/obj/KERNEL_OBJ/usr"
+echo "---------------"
+
 source build/envsetup.sh
 
 echo "----------------"
