@@ -34,5 +34,5 @@ echo "----------------"
 echo Starting Build
 echo "----------------"
 
-axion dubai gms core
-ax -br
+breakfast sdk_phone_arm64 eng
+mka emu_img_zip
