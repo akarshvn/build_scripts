@@ -22,6 +22,7 @@ git clone -b lineage-22.2 https://github.com/akarshvn/android_packages_apps_Upda
 mkdir -p out/target/product/dubai/obj/KERNEL_OBJ/usr
 echo "---------------"
 echo "created folder: out/target/product/dubai/obj/KERNEL_OBJ/usr"
+rm -rf out/target/product/emu64a/obj/PACKAGING/superimage_debug_intermediates
 echo "---------------"
 
 source build/envsetup.sh
