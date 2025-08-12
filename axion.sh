@@ -24,6 +24,8 @@ echo "---------------"
 echo "created folder: out/target/product/dubai/obj/KERNEL_OBJ/usr"
 echo "---------------"
 
+rm -rf out/target/product/emu64a/obj/PACKAGING/superimage_debug_intermediates
+
 source build/envsetup.sh
 
 echo "----------------"
