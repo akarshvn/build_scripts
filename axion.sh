@@ -2,6 +2,13 @@ rm -rf .repo/local_manifests/
 rm -rf prebuilts/clang/host/linux-x86
 rm -rf packages/apps/Updater/
 
+rm -rf device/motorola/dubai
+rm -rf device/motorola/sm7325-common
+rm -rf kernel/motorola/sm7325
+rm -rf vendor/motorola/dubai
+rm -rf vendor/motorola/sm7325-common
+rm -rf hardware/motorola
+
 repo init -u https://github.com/AxionAOSP/android.git -b lineage-23.0 --git-lfs
 
 /opt/crave/resync.sh
