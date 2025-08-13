@@ -37,5 +37,5 @@ echo "----------------"
 echo Starting Build
 echo "----------------"
 
-breakfast sdk_phone_arm64 eng
+breakfast sdk_phone_arm64 userdebug
 mka emu_img_zip
