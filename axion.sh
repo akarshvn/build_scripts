@@ -17,7 +17,7 @@ echo Sync Successful
 echo "----------------"
 
 rm -rf packages/apps/Updater/
-git clone -b lineage-22.2 https://github.com/akarshvn/android_packages_apps_Updater.git packages/apps/Updater/
+git clone -b lineage-23.0 https://github.com/akarshvn/android_packages_apps_Updater.git packages/apps/Updater/
 
 source build/envsetup.sh
 
