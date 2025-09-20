@@ -1,3 +1,6 @@
+rm -rf .repo/local_manifests/
+rm -rf prebuilts/clang/host/linux-x86
+
 repo init -u https://github.com/LineageOS/android.git -b lineage-22.2 --git-lfs --no-clone-bundle
 echo "\n---------------\nrepo initialised\n---------------\n"
 
